@@ -1,0 +1,30 @@
+$main-color: #757575;
+$second-color: #212121;
+$third-color: #ffffff;
+$accent-color: #2196f3;
+$bg-color: #f5f4fa;
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $main-color;
+}
+
+.active-link {
+  color: $accent-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+.features .list {
+  display: flex;
+  padding: 0;
+}
+
+.container .features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features .list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-title {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $second-color;
+}
+
+.features-text {
+  margin-top: 10px;
+}
+
+.features-box {
+  background-color: $bg-color;
+  border-radius: 4px;
+}
+
+.features-icon {
+  margin: 25px 100px;
+}

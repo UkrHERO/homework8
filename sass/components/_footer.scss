@@ -1,0 +1,141 @@
+.footer {
+  background-color: #2f303a;
+}
+
+.logo .logo-title-end {
+  color: $third-color;
+}
+.footer-cont {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.address {
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: $third-color;
+}
+
+.address-link {
+  display: block;
+  margin-top: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.follow-title {
+  text-transform: uppercase;
+  color: $third-color;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.follow {
+  display: block;
+  margin-left: 70px;
+}
+
+.subscribe {
+  width: 570px;
+  margin-left: auto;
+}
+
+.subscribe-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-width: 200px;
+  padding: 10px 32px 10px 32px;
+  border: transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $third-color;
+  background-color: $accent-color;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.subscribe-field {
+  width: 100%;
+  height: 50px;
+  padding: 16px;
+  color: $third-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+
+  &:placeholder-shown {
+    padding-left: 16px;
+    font-size: 16px;
+  }
+}
+
+.subscribe-label {
+  width: 100%;
+  margin-right: 12px;
+}
+
+.subscribe-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.follow-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  border: none;
+  color: $third-color;
+  background-color: #44454e;
+  padding: 12px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: $third-color;
+    background-color: $accent-color;
+  }
+}
+
+.follow-icon {
+  fill: currentColor;
+}
