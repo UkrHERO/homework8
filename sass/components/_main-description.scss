@@ -13,9 +13,15 @@
   margin-top: 50px;
 }
 
-.container .list-item:not(:last-child) {
-  margin-right: 30px;
+@media (max-width: 760px) {
+  .container-description {
+    display: none;
+  }
 }
+
+// .container .list-item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .description-thumb {
   position: relative;

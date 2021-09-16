@@ -1,16 +1,21 @@
 .features .list {
-  display: flex;
+  // display: flex;
   padding: 0;
 }
 
 .container .features {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  @media (max-width: 760px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
-.features .list-item:not(:last-child) {
-  margin-right: 30px;
-}
+// .features .list-item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .features-title {
   margin-top: 30px;
@@ -18,6 +23,10 @@
   font-weight: 700;
   text-transform: uppercase;
   color: $second-color;
+
+  @media (max-width: 760px) {
+    text-align: center;
+  }
 }
 
 .features-text {
@@ -27,8 +36,11 @@
 .features-box {
   background-color: $bg-color;
   border-radius: 4px;
+  text-align: center;
 }
 
 .features-icon {
-  margin: 25px 100px;
+  @media (max-width: 760px) {
+    margin: 25px 0px;
+  }
 }

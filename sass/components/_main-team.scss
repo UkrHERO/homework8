@@ -4,6 +4,10 @@
 
 .team-title-main {
   padding-top: 94px;
+
+  @media (max-width: 760px) {
+    padding-top: 60px;
+  }
 }
 
 .team-title {
@@ -31,20 +35,36 @@
 }
 
 .container .team-list {
-  display: flex;
+  // display: flex;
   padding: 0;
   margin-top: 50px;
   padding-bottom: 94px;
+
+  @media (max-width: 760px) {
+    margin-top: 30px;
+    padding-bottom: 60px;
+  }
 }
 
-.container .team-item:not(:last-child) {
-  margin-right: 30px;
+.team-img {
+  text-align: center;
 }
+
+@media (max-width: 760px) {
+  .container .team-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+// .container .team-item:not(:last-child) {
+//   // margin-right: 30px;
+// }
 
 .team-box {
   display: flex;
   align-items: center;
-  margin: 16px 32px 30px 32px;
+  justify-content: center;
+  padding: 16px 32px 30px 32px;
 }
 
 .icon-link {
