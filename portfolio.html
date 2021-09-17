@@ -21,32 +21,85 @@
 <header class="header">
     <div class="container header-container">
         <a class="logo" href="./index.html"><span class="logo-title">Web</span>Studio</a>
-        <nav>
-            <ul class="list header-nav">
+
+        <button type="button" class="menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                <use class="icon-cross" href="./images/sprite.svg#icon-close-menu">
+
+                </use>
+                <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+        </button>
+
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-button js-close-menu">
+                <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                    <use class="icon-cross" href="./images/sprite.svg#icon-close_menu">
+
+                    </use>
+
+                </svg>
+            </button>
+
+            <ul class="mobile-menu">
                 <li class="header-item">
-                    <a class="header-link" href="./index.html">Студия</a>
+                    <a class="header-link mobile-menu-link" href="./index.html">Студия</a>
                 </li>
                 <li class="header-item">
-                    <div class="active-box"><a class="header-link" href="./portfolio.html"><span class="active-link">Портфолио</span></a></div>
+                    <a class="header-link mobile-menu-link" href="./portfolio.html"><span class="active-link">Портфолио</span></a>
                 </li>
                 <li class="header-item">
-                    <a class="header-link" href="">Контакты</a>
+                    <a class="header-link mobile-menu-link" href="">Контакты</a>
                 </li>
             </ul>
-        </nav>
-        <div class="header-contacts">
-            <a class="contact" href="mailto:info@devstudio.com">
-                <svg class="contact-icon" width="16" height="12">
-                    <use href="./images/sprite.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com</a>
-            <a class="contact" href="tel:+380961111111">
-                <svg class="contact-icon" width="10" height="16">
-                    <use href="./images/sprite.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11</a>
+
+            <div class="header-contacts mobile-contacts">
+                <a class="contact mobile-contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a><br>
+                <a class="contact mobile-contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <div class="mobile-contacts-social">
+                    <ul class="mobile-contacts-list">
+                        <li class="mobile-contacts-item"><a class="mobile-contacts-link" href="">Instagram<span
+                                    class="mobile-contacts-decor"></span></a></li>
+                        <li class="mobile-contacts-item"><a class="mobile-contacts-link" href="">Twitter<span
+                                    class="mobile-contacts-decor"></span></a></li>
+                        <li class="mobile-contacts-item"><a class="mobile-contacts-link" href="">Facebook<span
+                                    class="mobile-contacts-decor"></span></a></li>
+                        <li class="mobile-contacts-item"><a class="mobile-contacts-link" href="">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header-box">
+            <nav>
+                <ul class="list header-nav">
+                    <li class="header-item">
+                        <a class="header-link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="header-item">
+                        <div class="active-box"><a class="header-link" href="./portfolio.html"><span class="active-link">Портфолио</span></a></div>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-contacts">
+                <a class="contact" href="mailto:info@devstudio.com">
+                    <svg class="contact-icon" width="16" height="12">
+                        <use href="./images/sprite.svg#icon-mail"></use>
+                    </svg>
+                    info@devstudio.com</a>
+                <a class="contact" href="tel:+380961111111">
+                    <svg class="contact-icon" width="10" height="16">
+                        <use href="./images/sprite.svg#icon-phone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
+            </div>
         </div>
     </div>
+
 </header>
 
     <!-- Main -->
@@ -104,8 +157,8 @@
                             <div class="project-box">
                             <h2 class="project-title">Ресторан Seafood</h2>
                         <p class="project-text">Приложение</p>
-                    </a>
                     </div>
+                    </a>
                 </li>
 
                 <li class="project-item">
@@ -120,8 +173,8 @@
                         <div class="project-box">
                             <h2 class="project-title">Проект Prime</h2>
                         <p class="project-text">Маркетинг</p>
-                    </a>
                     </div>
+                    </a>
                 </li>
 
                 <li class="project-item">
@@ -135,8 +188,8 @@
                         <div class="project-box">
                         <h2 class="project-title">Проект Boxes</h2>
                         <p class="project-text">Приложение</p>
-                    </a>
                     </div>
+                    </a>
                 </li>
 
                 <li class="project-item">
@@ -151,8 +204,8 @@
                             <div class="project-box">
                             <h2 class="project-title">Inspiration has no Borders</h2>
                         <p class="project-text">Веб-сайт</p>
-                    </a>
                     </div>
+                    </a>
                 </li>
 
                 <li class="project-item">
@@ -167,8 +220,8 @@
                             <div class="project-box">
                             <h2 class="project-title">Издание Limited Edition</h2>
                         <p class="project-text">Дизайн</p>
-                    </a>
                     </div>
+                    </a>
                 </li>
 
                 <li class="project-item">
@@ -182,8 +235,8 @@
                         <div class="project-box">
                         <h2 class="project-title">Проект LAB</h2>
                         <p class="project-text">Маркетинг</p>
+                   </div>
                     </a>
-                    </div>
                 </li>
 
                 <li class="project-item">
@@ -198,8 +251,8 @@
                         <div class="project-box">
                             <h2 class="project-title">Growing Business</h2>
                         <p class="project-text">Приложение</p>
-                    </a>
                     </div>
+                    </a>
                 </li>
             </ul>
         </section>
@@ -265,6 +318,14 @@
         </div>
     </footer>
 
+
+        <!-- Script for modal -->
+    
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"></script>
+        <script src="./js/mobile-menu.js"></script>
+        
 </body>
 
 </html>

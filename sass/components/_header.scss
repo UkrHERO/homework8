@@ -3,7 +3,6 @@
 }
 
 .container {
-  // width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -13,21 +12,29 @@
     width: 480px;
   }
 
-  @media (min-width: 760px) {
-    width: 760px;
+  @media (min-width: 768px) {
+    width: 768px;
   }
 
   @media (min-width: 1200px) {
     width: 1200px;
   }
 
-  // & .header-link {
-  //   display: inline-block;
-  // }
+  & .header-link {
+    display: inline-block;
+  }
 }
 
 .header-box {
-  display: none;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .header-box {
+    display: none;
+  }
 }
 
 .header-container {
@@ -35,10 +42,11 @@
   align-items: center;
 }
 
-// .header-nav {
-//   display: flex;
-//   margin: 0;
-// }
+.header-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 
 .header-item:not(:last-child) {
   margin-right: 40px;
@@ -81,14 +89,15 @@
     color: $accent-color;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     margin-top: 16px;
     margin-bottom: 16px;
+    font-size: 24px;
   }
 
-  @media screen and (min-width: 760px) and (max-width: 1200px) {
-    margin-top: 26px;
-    margin-bottom: 26px;
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    padding-right: 88px;
+    font-size: 24px;
   }
 }
 
@@ -127,6 +136,13 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .contact:not(:last-child) {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
 .contact-icon {
   margin-right: 10px;
   fill: currentColor;
@@ -134,6 +150,9 @@
 
 .header-contacts {
   margin-left: auto;
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    padding-left: 84px;
+  }
 }
 
 .list {

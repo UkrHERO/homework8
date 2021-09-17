@@ -6,8 +6,8 @@
   color: $third-color;
 }
 
-@media (max-width: 760px) {
-  .logo {
+@media (max-width: 1200px) {
+  .logo-footer {
     padding-right: 0;
   }
 }
@@ -15,11 +15,22 @@
 .footer-cont {
   padding-top: 60px;
   padding-bottom: 60px;
-  // display: flex;
-  // justify-content: flex-start;
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
     text-align: center;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
@@ -47,6 +58,12 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-box {
+    margin-left: 76px;
+  }
+}
+
 .follow-title {
   text-transform: uppercase;
   color: $third-color;
@@ -58,24 +75,48 @@
 
 .follow {
   display: block;
-  // margin-left: 70px;
 
-  @media (max-width: 760px) {
+  @media (max-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    margin-right: 86px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .form {
     margin-top: 60px;
     margin-bottom: 60px;
   }
 }
 
 .subscribe {
-  // width: 570px;
-  margin-left: auto;
+  @media (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 570px;
+    margin-left: auto;
+  }
 }
 
-// .subscribe-box {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
+@media (min-width: 1200px) {
+  .subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -98,7 +139,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 1200px) {
     margin-top: 20px;
   }
 }
