@@ -31,6 +31,10 @@
 
   transform: translateX(150%);
   transition: transform 250ms ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-container.is-open {
@@ -64,11 +68,12 @@
 }
 
 .header-contacts.mobile-contacts {
-  position: absolute;
+  // position: absolute;
   display: block;
-  padding-left: 40px;
-  left: 0;
-  bottom: 0;
+  // padding-left: 40px;
+  // left: 0;
+  // bottom: 0;
+  margin: 0;
 }
 
 .mobile-contacts-tel {
