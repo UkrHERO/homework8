@@ -23,6 +23,7 @@
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
     justify-content: space-between;
     text-align: center;
     padding-bottom: 0;
@@ -31,6 +32,7 @@
   @media (min-width: 1200px) {
     display: flex;
     justify-content: flex-start;
+    align-items: baseline;
   }
 }
 

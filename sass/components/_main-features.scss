@@ -2,13 +2,9 @@
   padding: 0;
 }
 
-.container .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
-  @media (max-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+@media (min-width: 1200px) {
+  .section.features {
+    padding-bottom: 0;
   }
 }
 

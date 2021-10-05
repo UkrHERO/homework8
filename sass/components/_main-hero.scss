@@ -1,3 +1,13 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  @media (max-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .hero {
   max-width: 1600px;
   max-height: 600px;

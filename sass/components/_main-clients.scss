@@ -23,6 +23,7 @@
 }
 
 .clients-button {
+  display: block;
   box-sizing: border-box;
   width: 170px;
   margin: 0;
@@ -50,9 +51,11 @@
 
   @media (max-width: 768px) {
     width: 210px;
+    text-align: center;
   }
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     width: 226px;
+    text-align: center;
   }
 }
 

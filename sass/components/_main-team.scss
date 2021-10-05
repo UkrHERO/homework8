@@ -1,18 +1,18 @@
 .team-section {
   background-color: $bg-color;
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
 
-  @media (max-width: 1200px) {
-    padding-bottom: 94px;
-  }
+  // @media (max-width: 1200px) {
+  //   padding-bottom: 94px;
+  // }
 }
 
 .team-title-main {
-  padding-top: 94px;
+  // padding-top: 94px;
   margin-bottom: 50px;
 
   @media (max-width: 1200px) {
-    padding-top: 60px;
+    // padding-top: 60px;
     margin-bottom: 30px;
   }
 }
@@ -53,11 +53,11 @@
 .container .team-list {
   padding: 0;
   margin-top: 50px;
-  padding-bottom: 94px;
+  // padding-bottom: 94px;
 
   @media (max-width: 768px) {
     margin-top: 30px;
-    padding-bottom: 60px;
+    // padding-bottom: 60px;
   }
 
   @media (min-width: 768px) {
