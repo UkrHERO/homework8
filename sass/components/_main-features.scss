@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1199.5px) {
   .features .list-item {
     max-width: 270px;
   }
@@ -37,7 +37,7 @@
   text-transform: uppercase;
   color: $second-color;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767.5px) {
     text-align: center;
   }
 }
@@ -45,7 +45,7 @@
 .features-text {
   margin-top: 10px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767.5px) {
     margin-bottom: 30px;
   }
 }
@@ -57,7 +57,7 @@
 }
 
 .features-icon {
-  @media (max-width: 768px) {
+  @media (max-width: 767.5px) {
     margin: 25px 0px;
   }
 

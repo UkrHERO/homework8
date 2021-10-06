@@ -94,7 +94,7 @@
     font-size: 24px;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.5px) {
     margin-right: 88px;
     font-size: 24px;
   }
@@ -137,7 +137,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199.5px) {
   .contact:not(:last-child) {
     margin-bottom: 10px;
     margin-right: 0;
@@ -153,10 +153,10 @@
   margin-left: auto;
   // display: flex;
 
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.5px) {
     padding-left: 84px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1199.5px) {
     display: flex;
   }
 }

@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1199.5px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -54,7 +54,7 @@
     }
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.5px) {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -90,7 +90,7 @@
     font-size: 24px;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.5px) {
     font-size: 26px;
   }
 }
